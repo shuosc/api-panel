@@ -1,4 +1,4 @@
-FROM kkarczmarczyk/node-yarn:4.3.2-slim as builder
+FROM kkarczmarczyk/node-yarn:8.0-slim as builder
 COPY . /root/api-panel
 WORKDIR /root/api-panel
 RUN yarn && yarn build
