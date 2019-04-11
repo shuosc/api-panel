@@ -1,7 +1,7 @@
-FROM kkarczmarczyk/node-yarn:8.0-slim as builder
+FROM node:10.15.3-alpine as builder
 COPY . /root/api-panel
 WORKDIR /root/api-panel
-RUN yarn && yarn build
+RUN npm install -g yarn && yarn && yarn build
 
 FROM nginx: 1.15.11-alpine
 MAINTAINER ferryvan@163.com
