@@ -1,0 +1,14 @@
+[
+  {
+    "name": "熟知网活动",
+    "url": "http://cloud.shu.网络:30000/activities",
+    "repository_url": "https://github.com/shuosc/shuZhiNet",
+    "info": ""
+  },
+  {
+    "name": "志愿者网活动",
+    "url": "http://cloud.shu.网络:30000/volunteer-activities",
+    "repository_url": "https://github.com/shuosc/SHUVolunteer",
+    "info": ""
+  }
+]
