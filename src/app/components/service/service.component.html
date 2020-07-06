@@ -1,0 +1,23 @@
+<nz-card [nzTitle]="service.name">
+  <p>{{service.description}}</p>
+  <div nz-row>
+    <p nz-col nzXs="12">
+      <a [href]="service.github">
+        <i nz-icon nzType="github" nzTheme="outline"></i>GitHub Repo
+      </a>
+    </p>
+    <p nz-col nzXs="12">
+      <a [href]="service.doc || service.github+'/tree/master/doc'">
+        <i nz-icon nzType="book" nzTheme="outline"></i>文档
+      </a>
+    </p>
+    <p nz-col nzXs="12">
+      <i nz-icon nzType="container" nzTheme="outline"></i>镜像：{{service.docker}}
+    </p>
+    <p nz-col nzXs="12">
+      <a [href]="service.baseUrl">
+        <i nz-icon nzType="api" nzTheme="outline"></i>服务URL
+      </a>
+    </p>
+  </div>
+</nz-card>

@@ -1,0 +1,53 @@
+{
+  "services": [
+    {
+      "name": "pdf-generator",
+      "baseUrl": "/api/pdf-generator",
+      "docker": "shuosc/pdf-generator:latest",
+      "github": "https://github.com/shuosc/pdf-generator",
+      "description": "pdf生成器服务"
+    },
+    {
+      "name": "course",
+      "baseUrl": "/api/course",
+      "docker": "shuosc/shu-course:158676866",
+      "github": "https://github.com/shuosc/shuCourse",
+      "description": "课程信息服务"
+    },
+    {
+      "name": "semester",
+      "baseUrl": "/api/semester",
+      "docker": "longfangsong/shu-semester:2c2b01",
+      "github": "https://github.com/shuosc/shuSemester",
+      "description": "学期信息服务"
+    },
+    {
+      "name": "student",
+      "baseUrl": "/api/student",
+      "docker": "shuosc/shu-student:138153507",
+      "github": "https://github.com/shuosc/shuStudent",
+      "description": "学生基本信息服务"
+    },
+    {
+      "name": "teacher",
+      "baseUrl": "/api/teacher",
+      "docker": "shuosc/shu-teacher",
+      "github": "https://github.com/shuosc/shuTeacher",
+      "description": "教师基本信息服务"
+    },
+    {
+      "name": "todo",
+      "baseUrl": "/api/todo",
+      "docker": "longfangsong/shu-todo:317d48",
+      "github": "https://github.com/shuosc/shuTodo",
+      "description": "SHUHelper todolist服务"
+    },
+    {
+      "name": "shuhelper-config-storage",
+      "baseUrl": "/api/shuhelper-config-storage",
+      "docker": "longfangsong/shuhelper-config-storage:416c25",
+      "github": "https://github.com/shuosc/shuhelperConfigStorage",
+      "description": "SHUHelper 配置设置管理服务 "
+    }
+  ]
+}
